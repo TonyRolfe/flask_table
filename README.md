@@ -1,17 +1,12 @@
-Flask Table
+Flask Table 2
 ===========
 
-Because writing HTML is fiddly and all of your tables are basically
-the same.
-
-[![Build Status](https://travis-ci.org/plumdog/flask_table.svg?branch=master)](https://travis-ci.org/plumdog/flask_table)
-[![Coverage Status](https://coveralls.io/repos/plumdog/flask_table/badge.png?branch=master)](https://coveralls.io/r/plumdog/flask_table?branch=master)
-[![PyPI version](https://badge.fury.io/py/Flask-Table.svg)](https://badge.fury.io/py/Flask-Table)
+I've ported the Flask Table Python Module that has been abandoned.
 
 Installation
 ============
 ```
-pip install flask-table
+pip install flask-table2
 ```
 
 Quick Start
@@ -19,7 +14,7 @@ Quick Start
 
 ```python
 # import things
-from flask_table import Table, Col
+from flask_table2 import Table, Col
 
 # Declare your table
 class ItemTable(Table):
