@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from functools import partial
 
-from flask import Markup
+from markupsafe import Markup
 
 
 def element(element, attrs=None, content='',

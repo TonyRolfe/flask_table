@@ -1,4 +1,4 @@
-from flask_table import Table, Col, ButtonCol
+from flask_table2 import Table, Col, ButtonCol
 from flask import Flask, request
 
 """An example for creating LinkCol or ButtonCol with local attributes

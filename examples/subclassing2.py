@@ -1,4 +1,4 @@
-from flask_table import Table, Col
+from flask_table2 import Table, Col
 
 
 class RawCol(Col):

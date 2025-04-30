@@ -1,4 +1,4 @@
-from flask_table import create_table, Col
+from flask_table2 import create_table, Col
 
 
 def main():

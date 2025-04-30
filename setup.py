@@ -14,12 +14,12 @@ else:
     readme = None
 
 setup(
-    name='Flask-Table',
-    packages=['flask_table'],
-    version='0.5.0',
-    author='Andrew Plummer',
-    author_email='plummer574@gmail.com',
-    url='https://github.com/plumdog/flask_table',
+    name='Flask-Table2',
+    packages=['flask_table2'],
+    version='0.1.0',
+    author='Tony Rolfe',
+    author_email='tony.rolfe@ibm.com',
+    url='https://github.com/TonyRolfe/flask_table',
     description='HTML tables for use with the Flask micro-framework',
     install_requires=install_requires,
     test_suite='tests',

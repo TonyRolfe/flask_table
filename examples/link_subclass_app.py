@@ -1,4 +1,4 @@
-from flask_table import Table, Col, LinkCol
+from flask_table2 import Table, Col, LinkCol
 from flask import Flask, url_for
 
 """A example for creating a simple table within a working Flask app.

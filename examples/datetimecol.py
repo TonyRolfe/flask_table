@@ -9,7 +9,7 @@ from datetime import datetime
 # LC_TIME=en_GB python examples/datetimecol.py
 os.environ.setdefault('LC_TIME', 'en_GB')  # noqa
 
-from flask_table import Table, Col, DatetimeCol
+from flask_table2 import Table, Col, DatetimeCol
 
 
 class Item(object):

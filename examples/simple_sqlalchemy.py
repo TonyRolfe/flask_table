@@ -2,7 +2,7 @@ from __future__ import print_function
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_table import Table, Col
+from flask_table2 import Table, Col
 
 
 # Some application and database setup. This should be taken care of

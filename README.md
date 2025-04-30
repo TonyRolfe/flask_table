@@ -1,17 +1,14 @@
-Flask Table
+Flask Table 2
 ===========
 
-Because writing HTML is fiddly and all of your tables are basically
-the same.
+I've ported the Flask Table Python Module that has been abandoned. I hope you find this module as efficient 
+and useful as the original. The majority of the code in this module was written by Andrew Plummer and this module stands on his shoulders.
 
-[![Build Status](https://travis-ci.org/plumdog/flask_table.svg?branch=master)](https://travis-ci.org/plumdog/flask_table)
-[![Coverage Status](https://coveralls.io/repos/plumdog/flask_table/badge.png?branch=master)](https://coveralls.io/r/plumdog/flask_table?branch=master)
-[![PyPI version](https://badge.fury.io/py/Flask-Table.svg)](https://badge.fury.io/py/Flask-Table)
 
 Installation
 ============
 ```
-pip install flask-table
+pip install flask-table2
 ```
 
 Quick Start
@@ -19,18 +16,22 @@ Quick Start
 
 ```python
 # import things
-from flask_table import Table, Col
+from flask_table2 import Table, Col
+
 
 # Declare your table
 class ItemTable(Table):
-    name = Col('Name')
-    description = Col('Description')
+  name = Col('Name')
+  description = Col('Description')
+
 
 # Get some objects
 class Item(object):
-    def __init__(self, name, description):
-        self.name = name
-        self.description = description
+  def __init__(self, name, description):
+    self.name = name
+    self.description = description
+
+
 items = [Item('Name1', 'Description1'),
          Item('Name2', 'Description2'),
          Item('Name3', 'Description3')]

@@ -1,4 +1,4 @@
-from flask_table import Table, Col
+from flask_table2 import Table, Col
 
 
 """If we want to put an HTML class onto the table element, we can set

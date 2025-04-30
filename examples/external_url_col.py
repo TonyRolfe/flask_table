@@ -1,5 +1,5 @@
-from flask_table import Table, Col
-from flask_table.html import element
+from flask_table2 import Table, Col
+from flask_table2.html import element
 
 
 class Item(object):

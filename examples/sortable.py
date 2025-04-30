@@ -1,4 +1,4 @@
-from flask_table import Table, Col, LinkCol
+from flask_table2 import Table, Col, LinkCol
 from flask import Flask, Markup, request, url_for
 
 """

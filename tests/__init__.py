@@ -12,9 +12,9 @@ os.environ['LANGUAGE'] = 'en_GB.UTF-8'  # noqa
 import io
 import unittest
 from flask import Flask, url_for
-from flask_table import (Table, Col, LinkCol, ButtonCol, OptCol, BoolCol,
-                         DateCol, DatetimeCol, NestedTableCol, create_table,
-                         BoolNaCol)
+from flask_table2 import (Table, Col, LinkCol, ButtonCol, OptCol, BoolCol,
+                          DateCol, DatetimeCol, NestedTableCol, create_table,
+                          BoolNaCol)
 import flask_testing
 from datetime import date, datetime
 
